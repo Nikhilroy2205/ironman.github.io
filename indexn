@@ -2,10 +2,90 @@
 <html>
 <head>
 <title> Intro On Nick </title>
+<style>
+  .b{
+    background-color: white;
+    font-family: sans-serif;
+  }
+  h1{
+    text-align: center;
+    color : red;
+    border :3px solid blue ;
+  }
+  #banner{
+    background-image: url("https://tse1.mm.bing.net/th?id=OIP.ZlrKgtqi5aZkJwREHzfGTgHaE5&pid=15.1&P=0&w=245&h=163");
+    background-size: cover;
+    width :100%;
+    height : 50px;
+    overflow: hidden;
+    padding : 10px;
+    ;
+  }
+  #banner. content p{
+    border: 3px solid white;
+    position : relative;
+    top : 10px;
+    width : 100%;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  .shortcut ul{
+    display: inline-block;
+  }
+  #Intro{
+    background-color: yellow;
+    padding:10px;
+  }
+  #Into h2{
+    font-weight:bold;
+    text-align: center;
+  }
+  #Intro p{
+    margin: 0 auto;
+  }
+  #School{
+    background-color: blue;
+    padding : 10px;
+  }
+  #School h2{
+    font-weight: bold;
+    text-align: center;
+  }
+  #School p{
+    margin: 0 auto;
+  }
+  #Hobbies{
+    background-color: yellow;
+    padding : 10px;
+  }
+  #Hobbies h2{
+    font-weight: bold;
+    text-align: center;
+  }
+  #Hobbies p{
+    margin : 0 auto;
+  }
+  #Future{
+    background-color: blue;
+    padding: 10px;
+  }
+  #Future h2{
+    font-weight: bold;
+    text-align: center;
+  }
+  #Future p{
+    margin : 0 auto;
+  }
+</style>
 </head>
 <body>
  <h1> Nicks NITT </h1>
- <ul>
+ <div id ="banner">
+  <div class="content">
+ <p>Welcome to the official site</p></div>
+</div>
+ <ul class="shortcut">
   <li><a href="#Intro">Introduction</a></li>
   <li><a href="#School">Schooling</a></li>
   <li><a href="#Hobbies">Hobbies</a></li>
